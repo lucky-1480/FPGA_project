@@ -1,0 +1,17 @@
+-d D:\FPGA project\project\impl\gwsynthesis\project.vg
+-p GW2A-55C-PBGA484-8
+-pn GW2A-LV55PG484C8/I7
+-cst D:\FPGA project\project\src\project.cst
+-cfg D:\FPGA project\project\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-place_option 0
+-route_option 0
+-retiming_resource none
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 100.000

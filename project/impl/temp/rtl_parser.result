@@ -1,0 +1,124 @@
+[
+    {
+        "InstFile": "D:/FPGA project/project/src/top.v",
+        "InstLine": 17,
+        "InstName": "top",
+        "ModuleFile": "D:/FPGA project/project/src/top.v",
+        "ModuleLine": 17,
+        "ModuleName": "top",
+        "SubInsts": [
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 55,
+                "InstName": "u_enc1",
+                "ModuleFile": "D:/FPGA project/project/src/encoder_decoder.v",
+                "ModuleLine": 4,
+                "ModuleName": "encoder_decoder"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 65,
+                "InstName": "u_enc2",
+                "ModuleFile": "D:/FPGA project/project/src/encoder_decoder.v",
+                "ModuleLine": 4,
+                "ModuleName": "encoder_decoder"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 83,
+                "InstName": "u_ang",
+                "ModuleFile": "D:/FPGA project/project/src/angle_sensor.v",
+                "ModuleLine": 4,
+                "ModuleName": "angle_sensor"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 98,
+                "InstName": "u_swing",
+                "ModuleFile": "D:/FPGA project/project/src/swing_up.v",
+                "ModuleLine": 3,
+                "ModuleName": "swing_up"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 114,
+                "InstName": "u_key1",
+                "ModuleFile": "D:/FPGA project/project/src/key_filter.v",
+                "ModuleLine": 2,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 115,
+                "InstName": "u_key2",
+                "ModuleFile": "D:/FPGA project/project/src/key_filter.v",
+                "ModuleLine": 2,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 116,
+                "InstName": "u_key3",
+                "ModuleFile": "D:/FPGA project/project/src/key_filter.v",
+                "ModuleLine": 2,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 117,
+                "InstName": "u_key4",
+                "ModuleFile": "D:/FPGA project/project/src/key_filter.v",
+                "ModuleLine": 2,
+                "ModuleName": "key_filter"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 224,
+                "InstName": "u_param",
+                "ModuleFile": "D:/FPGA project/project/src/param_parser.v",
+                "ModuleLine": 10,
+                "ModuleName": "param_parser"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 245,
+                "InstName": "u_pid",
+                "ModuleFile": "D:/FPGA project/project/src/pid_controller.v",
+                "ModuleLine": 4,
+                "ModuleName": "pid_controller"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 283,
+                "InstName": "u_pwm",
+                "ModuleFile": "D:/FPGA project/project/src/pwm_gen.v",
+                "ModuleLine": 3,
+                "ModuleName": "pwm_gen"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 295,
+                "InstName": "u_uart_rx",
+                "ModuleFile": "D:/FPGA project/project/src/uart_rx.v",
+                "ModuleLine": 2,
+                "ModuleName": "uart_rx"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 309,
+                "InstName": "u_uart_tx",
+                "ModuleFile": "D:/FPGA project/project/src/uart_tx.v",
+                "ModuleLine": 2,
+                "ModuleName": "uart_tx"
+            },
+            {
+                "InstFile": "D:/FPGA project/project/src/top.v",
+                "InstLine": 340,
+                "InstName": "u_vofa",
+                "ModuleFile": "D:/FPGA project/project/src/vofa_tx.v",
+                "ModuleLine": 3,
+                "ModuleName": "vofa_tx"
+            }
+        ]
+    }
+]

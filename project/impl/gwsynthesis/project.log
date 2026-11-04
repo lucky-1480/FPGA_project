@@ -1,0 +1,44 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\FPGA project\project\src\angle_sensor.v'
+Analyzing Verilog file 'D:\FPGA project\project\src\encoder_decoder.v'
+Analyzing Verilog file 'D:\FPGA project\project\src\key_filter.v'
+Analyzing Verilog file 'D:\FPGA project\project\src\param_parser.v'
+Analyzing Verilog file 'D:\FPGA project\project\src\pid_controller.v'
+Analyzing Verilog file 'D:\FPGA project\project\src\pwm_gen.v'
+Analyzing Verilog file 'D:\FPGA project\project\src\swing_up.v'
+Analyzing Verilog file 'D:\FPGA project\project\src\top.v'
+Analyzing Verilog file 'D:\FPGA project\project\src\uart_rx.v'
+Analyzing Verilog file 'D:\FPGA project\project\src\uart_tx.v'
+Analyzing Verilog file 'D:\FPGA project\project\src\vofa_tx.v'
+Compiling module 'top'("D:\FPGA project\project\src\top.v":17)
+Compiling module 'encoder_decoder'("D:\FPGA project\project\src\encoder_decoder.v":4)
+Compiling module 'angle_sensor'("D:\FPGA project\project\src\angle_sensor.v":4)
+Compiling module 'swing_up'("D:\FPGA project\project\src\swing_up.v":4)
+Compiling module 'key_filter'("D:\FPGA project\project\src\key_filter.v":2)
+Compiling module 'param_parser(DEFAULT_ANGLE_KP=32'sd40,DEFAULT_ANGLE_KD=32'sd80,DEFAULT_POS_KP=32'sd40,DEFAULT_POS_KD=32'sd800)'("D:\FPGA project\project\src\param_parser.v":10)
+Compiling module 'pid_controller'("D:\FPGA project\project\src\pid_controller.v":5)
+Compiling module 'pwm_gen'("D:\FPGA project\project\src\pwm_gen.v":3)
+Compiling module 'uart_rx'("D:\FPGA project\project\src\uart_rx.v":2)
+Compiling module 'uart_tx'("D:\FPGA project\project\src\uart_tx.v":2)
+Compiling module 'vofa_tx'("D:\FPGA project\project\src\vofa_tx.v":3)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\FPGA project\project\impl\gwsynthesis\project.vg" completed
+[100%] Generate report file "D:\FPGA project\project\impl\gwsynthesis\project_syn.rpt.html" completed
+GowinSynthesis finish

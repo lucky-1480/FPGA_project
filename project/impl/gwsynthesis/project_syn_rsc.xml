@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="74" Alu="130" Lut="126" T_Register="1161(74)" T_Alu="625(130)" T_Lut="2407(126)" T_MULT36X36="4(0)" T_MULTALU36X18="2(0)">
+ <SubModule name="u_enc1" Register="103" Alu="47" Lut="56" T_Register="103(103)" T_Alu="47(47)" T_Lut="56(56)"/>
+ <SubModule name="u_enc2" Register="98" Alu="47" Lut="62" T_Register="98(98)" T_Alu="47(47)" T_Lut="62(62)"/>
+ <SubModule name="u_ang" Register="84" Alu="53" Lut="49" T_Register="84(84)" T_Alu="53(53)" T_Lut="49(49)"/>
+ <SubModule name="u_swing" Register="40" Alu="13" Lut="87" T_Register="40(40)" T_Alu="13(13)" T_Lut="87(87)"/>
+ <SubModule name="u_key1" Register="25" Lut="40" T_Register="25(25)" T_Lut="40(40)"/>
+ <SubModule name="u_key2" Register="25" Lut="39" T_Register="25(25)" T_Lut="39(39)"/>
+ <SubModule name="u_key3" Register="25" Lut="38" T_Register="25(25)" T_Lut="38(38)"/>
+ <SubModule name="u_key4" Register="25" Lut="40" T_Register="25(25)" T_Lut="40(40)"/>
+ <SubModule name="u_param" Register="274" Alu="59" Lut="187" T_Register="274(274)" T_Alu="59(59)" T_Lut="187(187)"/>
+ <SubModule name="u_pid" Register="236" Alu="263" Lut="334" MULT36X36="4" MULTALU36X18="2" T_Register="236(236)" T_Alu="263(263)" T_Lut="334(334)" T_MULT36X36="4(4)" T_MULTALU36X18="2(2)"/>
+ <SubModule name="u_pwm" Register="56" Alu="13" Lut="207" T_Register="56(56)" T_Alu="13(13)" T_Lut="207(207)"/>
+ <SubModule name="u_uart_rx" Register="43" Lut="73" T_Register="43(43)" T_Lut="73(73)"/>
+ <SubModule name="u_uart_tx" Register="34" Lut="66" T_Register="34(34)" T_Lut="66(66)"/>
+ <SubModule name="u_vofa" Register="19" Lut="1003" T_Register="19(19)" T_Lut="1003(1003)"/>
+</Module>
